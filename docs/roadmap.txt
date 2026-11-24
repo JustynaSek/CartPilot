@@ -1,0 +1,8 @@
+Roadmapa faz (kontekst — nie implementuj przyszłych faz przed czasem)
+Faza 1 (AKTYWNA): Szkielet aplikacji, baza PostgreSQL + pgvector, bot Telegram, pipeline zdjęć (paragon + refleksja matematyczna, lodówka), deterministyczne cykle zakupowe, generowanie i edycja profilu użytkownika, logowanie kosztów tokenów.
+
+Faza 2: Interfejs OfferProvider, parser gazetek (Vision PDF/obrazy + wybrane źródła HTML), wyszukiwanie hybrydowe w offers, Agent Doradca odpowiadający na pytanie „gdzie dziś jechać na zakupy?”.
+
+Faza 3: Proaktywny harmonogram (Cron), wysyłka podsumowań (Telegram / e-mail przez Resend), integracja z Google Calendar (lub pliki .ics), system zaproszeń dla znajomych.
+
+Faza 4: Remote MCP Server (FastMCP), zestaw ewaluacji (evals/) porównujący Gemini vs Anthropic, opcjonalny cienki panel webowy.
