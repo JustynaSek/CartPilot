@@ -9,6 +9,7 @@ dependencies = [
     "asyncpg>=0.32.0",
     "pgvector>=0.5.1",
     "pydantic>=2",
+    "pydantic-ai-slim[anthropic,google]>=2.74.0",
     "pydantic-settings>=2.7",
     "sqlalchemy[asyncio]>=2.0",
 ]
