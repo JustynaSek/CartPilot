@@ -1,0 +1,50 @@
+# --- Secrets & local config ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# --- Virtualenv (managed by uv) ---
+.venv/
+venv/
+
+# --- Tooling caches ---
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Local databases / docker volumes ---
+*.db
+*.sqlite3
+pgdata/
+postgres-data/
+
+# --- Private receipt / fridge photos used for manual testing ---
+tmp/
+local_receipts/
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.webp
+
+# --- Logs ---
+*.log
+logs/
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
